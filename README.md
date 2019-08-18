@@ -1,4 +1,4 @@
-# Gulp boilerplate (SASS, Babel, JS)
+# Gulp boilerplate (SASS, Babel, JS, CakePHP 3)
 This is a simple gulp boilerplate built for CakePHP3's file structure. It is based on devlifeX's work (boilerplate-gulp-sass-babel).
 
 # Install
