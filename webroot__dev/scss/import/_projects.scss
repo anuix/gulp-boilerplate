@@ -1,0 +1,178 @@
+/* --------------------------
+* Project > View
+* -------------------------- */
+.project__view {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  .project__view__sidebar {
+    position: absolute;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-radius: 15px 0px 0px 0px;
+    background: $color__Background;
+    z-index: 1;
+    border-right: 1px solid #f4f4f1;
+
+    .header {
+      border-bottom: 1px solid #dedede;
+      padding: 15px 30px;
+      a {
+        font-weight: 700;
+        color: $color__Primary;
+        font-size: $fontSize__sm;
+        span.letter {
+          display: block;
+          line-height: 42px;
+          float: left;
+          text-align: center;
+          width: 42px;
+          height: 42px;
+          border-radius: 4px;
+          background: $color__Primary;
+          color: $color__White;
+          font-size: $fontSize__xl;
+          margin-right: 15px;
+        }
+
+        .domain {
+          color: $color__Text-gray;
+          font-weight: 400;
+        }
+      }
+
+      a:hover {
+        text-decoration: none;
+      }
+    }
+
+    .search {
+      border-bottom: 1px solid #dedede;
+      form {
+        input {
+          width: 100%;
+          border: none;
+          line-height: 50px;
+          padding: 0px 30px;
+          outline: 0;
+          font-family: $fontFamily__Mono;
+        }
+      }
+    }
+    .menu {
+      padding-top: 30px;
+      .title {
+        display: block;
+        padding: 0px 30px;
+        line-height: 35px;
+        color: #afafaf;
+        text-transform: uppercase;
+        font-size: $fontSize__xs;
+        font-weight: 700;
+      }
+
+      a {
+        color: $color__Text;
+        display: block;
+        font-weight: 500;
+        font-size: $fontSize__sm;
+        line-height: 35px;
+        padding: 0px 15px;
+      }
+
+      a.active {
+        color: $color__Primary;
+      }
+
+      a:hover {
+        text-decoration: none;
+        color: $color__Primary;
+      }
+
+      .menu__submenu {
+        a {
+          padding-left: 30px;
+          font-weight: 400;
+          font-size: $fontSize__sm;
+          line-height: 32px;
+          color: $color__Text-gray;
+        }
+
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  > .project__view__content {
+    position: relative;
+    z-index: 2;
+    margin-left: auto;
+    width: calc(100% - 300px);
+    min-height: 100vh;
+  }
+
+
+
+
+  /* --------------------------
+   * Project > Chapter
+   * -------------------------- */
+  .project__view__chapter {
+    max-width: 840px;
+    margin: 0px auto;
+    padding-top: 50px;
+    h1 {
+
+    }
+
+    h2 {
+      margin-top: 30px;
+    }
+
+    h3 {
+      margin-top: 30px;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    i {
+      opacity: .8;
+      font-family: $fontFamily__Cursive;
+    }
+
+    code {
+      font-style: normal;
+      background: $color__Primary-subtle;
+      font-weight: 600;
+      color: $color__Primary;
+      display: inline-block;
+      padding: 0px 4px;
+    }
+    a {
+      font-style: normal;
+      display: inline-block;
+      font-weight: 600;
+      color: $color__Primary;
+    }
+  }
+
+  a {
+    color: $color__Primary;
+  }
+
+
+  .actions {
+    a {
+      border-radius: 2px;
+      border: 1px solid $color__Text-gray;
+      color: $color__Text-gray;
+      font-size: $fontSize__xs;
+      padding: 5px 15px;
+    }
+  }
+}

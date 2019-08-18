@@ -1,0 +1,124 @@
+/* --------------------------
+* Container
+* -------------------------- */
+.container {
+  max-width: 1300px;
+}
+
+
+/* --------------------------
+* Headings
+* -------------------------- */
+h1, h2, h3, h4 {
+  margin: 0px;
+  font-family: $fontFamily__Heading;
+}
+h1 {
+  font-size: $fontSize__h1;
+  font-weight: 700;
+}
+h2 {
+
+  font-size: $fontSize__h2;
+  font-weight: 700;
+}
+h3 {
+  font-size: $fontSize__h3;
+  font-weight: 500;
+}
+h4 {
+
+  font-size: $fontSize__h4;
+  font-weight: 600;
+}
+h5 {
+
+  font-size: $fontSize__h5;
+  font-weight: 600;
+}
+
+/* --------------------------
+* Paragraph
+* -------------------------- */
+p, ul li, ol li {
+  font-size: 16px;
+  line-height: 31px;
+  font-weight: 300;
+}
+
+ul li {
+  margin-bottom: 5px;
+  line-height: 25px;
+}
+
+
+
+/* --------------------------
+* Links
+* -------------------------- */
+a {
+  text-decoration: none;
+}
+
+
+/* --------------------------
+* Labels
+* -------------------------- */
+.label__new {
+  border-radius: 2px;
+  line-height: 20px;
+  padding: 0px 15px;
+  display: inline-block;
+  font-size: $fontSize__xs;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.label__new.secondary {
+  background: $color__Secondary;
+  color: $color__Text;
+}
+
+/* --------------------------
+* Call to actions
+* -------------------------- */
+
+
+/* --------------------------
+* Shadows
+* -------------------------- */
+.shadow__lg {
+  box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.75);
+}
+.shadow__normal {
+  box-shadow: 0px 0px 64px -2px rgba(0, 0, 0, 0.1);
+}
+.shadow__sm {
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.05);
+}
+
+/* --------------------------
+* Backgrounds
+* -------------------------- */
+
+
+/* --------------------------
+* Color > Backgrounds
+* -------------------------- */
+
+
+
+/* --------------------------
+* Margins
+* -------------------------- */
+
+
+
+/* --------------------------
+* Borders
+* -------------------------- */
+
+
+
+/* --------------------------
+ * Responsive
+ * -------------------------- */

@@ -1,0 +1,56 @@
+
+/* --------------------------------
+ * Breakpoints
+ * -------------------------------*/
+ $breakpoint--md: 768px;
+ $breakpoint--lg: 1280px;
+ $breakpoint--xl: 1440px;
+
+
+ /* --------------------------
+ * Colors
+ * -------------------------- */
+ $color__Primary: #5568fe;
+ $color__Primary-subtle: #eef3f9;
+ $color__Primary-dark: #072752;
+ $color__Secondary: #FEE902;
+ $color__Text: #222435;
+ $color__Text-subtle: #f6f4fc;
+ $color__Text-gray: #666666;
+ $color__White: #FFFFFF;
+
+ $color__Background-subtle: #f9fbfc;
+ $color__Background: #fcfcf9;
+
+
+ /* --------------------------
+ * Font families
+ * -------------------------- */
+ $fontFamily__Text: 'Roboto', sans-serif;
+ $fontFamily__Heading: 'Roboto', sans-serif;
+ $fontFamily__Cursive: 'Georgia';
+ $fontFamily__Mono: 'Roboto Mono', monospace;
+
+
+
+ /* --------------------------
+ * Font sizes
+ * -------------------------- */
+ $fontSize__xs: 12px;
+ $fontSize__sm: 14px;
+ $fontSize__md: 15px;
+ $fontSize__l: 18px;
+ $fontSize__xl: 21px;
+ $fontSize__h0: 100px;
+ $fontSize__h1: 70px;
+ $fontSize__h2: 30px;
+ $fontSize__h3: 18px;
+ $fontSize__h4: 21px;
+ $fontSize__h5: 21px;
+ $fontSize__h6: 18px;
+
+
+ /* --------------------------
+ * Border radius
+ * -------------------------- */
+ $borderRadius: 4px;

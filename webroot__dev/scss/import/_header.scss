@@ -1,0 +1,38 @@
+/* --------------------------------
+ * App > Header
+ * -------------------------------*/
+ .app__header {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+  width: 100%; 
+  .logo {
+    background: #777;
+    height: 50px;
+    flex-basis: 150px;
+    flex-grow: 1;
+  }
+  .menu {
+    background: #999;
+    height: 50px;
+    flex-basis: 150px;
+    flex-grow: 1;
+
+    .menu__links {
+      display: flex;
+      flex-wrap: wrap;
+      a {
+        display: inline-block;
+        flex-grow: 1;
+      }
+    }
+  }
+}
+
+
+// Tablet
+@media (min-width: $breakpoint--md) {
+  .app__header {
+    font-size: 30px;
+  }
+}

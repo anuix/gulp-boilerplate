@@ -1,0 +1,24 @@
+@import '_variables.scss';
+@import '_typography.scss';
+
+/* --------------------------
+* BODY
+* -------------------------- */
+body {
+  font-family: $fontFamily__Text;
+  font-size: $fontSize__md;
+  background: #FFFFFF;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* --------------------------
+* Main
+* -------------------------- */
+#app {
+  position: relative;
+  margin: 0px auto;
+}
+
+@import 'import/_header.scss';
+@import 'import/_projects.scss';
