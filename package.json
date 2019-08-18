@@ -1,31 +1,9 @@
 {
-  "name": "boilerplate-gulp-sass-bable",
+  "name": "gulp-boilerplate-scss-babel-cakephp3",
   "version": "1.0.0",
-  "description": "A boilerplate for rapid front-end development",
-  "main": "index.js",
-  "scripts": {
-    "start": "gulp dev",
-    "build": "gulp build",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/devlifeX/boilerplate-gulp-sass-babel.git"
-  },
-  "keywords": [
-    "boilerplate",
-    "scss",
-    "sass",
-    "es6",
-    "babel",
-    "front-end"
-  ],
-  "author": "dariushvesal",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/devlifeX/boilerplate-gulp-sass-babel/issues"
-  },
-  "homepage": "https://github.com/devlifeX/boilerplate-gulp-sass-babel#readme",
+  "description": "This is a simple gulp boilerplate built for CakePHP3's file structure. It is based on devlifeX's project (boilerplate-gulp-sass-babel).",
+  "main": "gulpfile.js",
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
@@ -55,5 +33,32 @@
       ]
     ]
   },
-  "dependencies": {}
+  "scripts": {
+    "start": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuix/gulp-boilerplate-sass-js-babel-cakephp3.git"
+  },
+  "keywords": [
+    "gulp",
+    "boilerplate",
+    "js",
+    "scss",
+    "sass",
+    "css",
+    "cake",
+    "php",
+    "3",
+    "cake",
+    "cakephp",
+    "babel",
+    "es6"
+  ],
+  "author": "ANUIX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anuix/gulp-boilerplate-sass-js-babel-cakephp3/issues"
+  },
+  "homepage": "https://github.com/anuix/gulp-boilerplate-sass-js-babel-cakephp3#readme"
 }
