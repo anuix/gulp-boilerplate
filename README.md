@@ -1,2 +1,2 @@
-# gulp-boilerplate
+# Gulp boilerplate (SASS, Babel, JS)
 Gulp boilerplate for beginners
